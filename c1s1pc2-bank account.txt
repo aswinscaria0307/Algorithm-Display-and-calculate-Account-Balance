@@ -1,0 +1,50 @@
+ALGORITHM:
+
+
+Step1: start
+
+Step2: Accept account balance from user
+
+Step3: substract annual maintenance from account balance
+
+Step4: If the account balance after substracting annual maintenance is
+	 less than 100,then display as "Your account is frozen because of
+	 insufficiant balance"
+
+Step5: If the account balance after substracting annual maintenance is
+	 greater than 100,then display as "$50 is deducted from your account
+	 as annual maintenance fee, current balance is" + account balance-annual maintenance
+
+Step6:Stop
+
+
+
+
+
+
+PSEUDOCODE:
+
+
+BEGIN
+
+GET account_balance
+
+SET current_balance = account_balance - 50
+
+IF (account_balance < 100)
+
+	BEGIN
+
+	Print "Your account is frozen because of insufficiant balance"
+
+	END
+
+ELSE
+
+	BEGIN
+
+	Print "current balance is" + current_balance
+
+	END
+
+END
